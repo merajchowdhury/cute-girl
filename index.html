@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>cute-girl</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            margin: 30px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        div img{
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(34, 32, 178, 0.3);
+
+        }
+        div{
+            width: 50%;
+         
+        }
+        h3{
+            text-align: center;
+        }
+        @media (max-width:600px){
+            .container{
+                flex-direction: column;
+
+            }
+            div{
+            width:100%;
+             }
+                     
+        }
+        @media (min-width:600px) and (max-width:992px) {
+            .container{
+                flex-direction: row;
+            }
+            div{
+                width: 100%;
+            }
+        }
+
+            
+        
+    </style>
+</head>
+<body>
+    <h1>Cute Girl</h1>
+    <section>      
+        <div class="container">
+            <div>
+                <img src="images/Safa.jpg" alt="">
+                <h3>Actor  Safa</h3>
+            </div>
+            <div>
+                <img src="images/new2.jpg" alt="">
+                <h3>Teacher  Sadeka</h3>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
